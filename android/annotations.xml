@@ -1,0 +1,5 @@
+<root>
+    <item name='android.Manifest.permission MOUNT_UNMOUNT_FILESYSTEMS'>
+        <annotation name='java.lang.Deprecated' />
+    </item>
+</root>
