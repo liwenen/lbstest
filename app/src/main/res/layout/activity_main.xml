@@ -10,9 +10,32 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:visibility="gone" />
-    <com.baidu.mapapi.map.MapView
-        android:id="@+id/bmapView"
+
+    <Button
+        android:id="@+id/button"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:clickable="true"/>
+        android:layout_height="wrap_content"
+        android:background="@drawable/bb"
+        android:text="Information"
+        android:textAllCaps="false"/>
+    <TextView
+        android:id="@+id/weather1"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:gravity="right" />
+    <TextView
+        android:id="@+id/weather2"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:gravity="right" />
+    <com.baidu.mapapi.map.MapView
+    android:id="@+id/bmapView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"/>
+
+
+
+
+
 </LinearLayout>

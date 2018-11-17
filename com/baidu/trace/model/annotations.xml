@@ -1,0 +1,5 @@
+<root>
+    <item name='com.baidu.trace.model.OnTraceListener'>
+        <annotation name='java.lang.Deprecated' />
+    </item>
+</root>

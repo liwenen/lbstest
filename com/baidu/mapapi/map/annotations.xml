@@ -1,0 +1,5 @@
+<root>
+    <item name='com.baidu.mapapi.map.Polyline'>
+        <annotation name='java.lang.Deprecated' />
+    </item>
+</root>
